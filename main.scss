@@ -1,2 +1,8 @@
-//base
-@import "./sass/base/base.scss"
+//1.abstract
+
+//2.base
+@import "./sass/base/base.scss";
+
+//3.layout
+@import "./sass/layout/main-layout.scss";
+@import "./sass/layout/sidebar";
