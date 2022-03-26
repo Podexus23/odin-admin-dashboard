@@ -2,12 +2,10 @@
   background-color: #10b981;
   color: #fff;
   font-family: 'Amatic SC', cursive;
-}
+  font-size: 2rem;
 
-.navigation-link {
-  transition: color 0.2s;
-}
+  padding-top: 2rem;
 
-.navigation-link:hover {
-  color: #dedede
+  display: grid;
+  justify-content: center;
 }

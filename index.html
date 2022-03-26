@@ -15,14 +15,20 @@
 <body>
   <aside class="sidebar">
     <div class="sidebar-logo">
-      <div class="logo-img"></div>
-      <h1 class="logo-title">Dashboard</h1>
+      <div class="logo-wrapper">
+        <span class="logo-icon">
+          <svg>
+            <use xlink:href="./assets/sprite.svg#logo">
+          </svg>
+        </span>
+        <h1 class="logo-title">Dashboard</h1>
+      </div>
     </div>
     <nav class="sidebar-navigation">
       <ul class="navigation-list">
         <li>
           <a href="" class="navigation-link">
-            <span class="navigation-icon1">
+            <span class="navigation-icon nav-icon">
               <svg>
                 <use xlink:href="./assets/sprite.svg#home">
               </svg>
@@ -32,61 +38,257 @@
         </li>
         <li>
           <a href="" class="navigation-link">
-            <span class="navigation-icon2"></span>
+            <span class="navigation-icon nav-icon">
+              <svg>
+                <use xlink:href="./assets/sprite.svg#profile">
+              </svg>
+            </span>
             <span class="navigation-text">profile</span>
           </a>
         </li>
         <li>
           <a href="" class="navigation-link">
-            <span class="navigation-icon3"></span>
+            <span class="navigation-icon nav-icon">
+              <svg>
+                <use xlink:href="./assets/sprite.svg#messages">
+              </svg>
+            </span>
             <span class="navigation-text">messages</span>
           </a>
         </li>
         <li>
           <a href="" class="navigation-link">
-            <span class="navigation-icon4"></span>
+            <span class="navigation-icon nav-icon">
+              <svg>
+                <use xlink:href="./assets/sprite.svg#history">
+              </svg>
+            </span>
             <span class="navigation-text">history</span>
           </a>
         </li>
         <li>
           <a href="" class="navigation-link">
-            <span class="navigation-icon5"></span>
+            <span class="navigation-icon nav-icon">
+              <svg>
+                <use xlink:href="./assets/sprite.svg#tasks">
+              </svg>
+            </span>
             <span class="navigation-text">tasks</span>
           </a>
         </li>
         <li>
           <a href="" class="navigation-link">
-            <span class="navigation-icon6"></span>
+            <span class="navigation-icon nav-icon">
+              <svg>
+                <use xlink:href="./assets/sprite.svg#communities">
+              </svg>
+            </span>
             <span class="navigation-text">communities</span>
           </a>
         </li>
       </ul>
     </nav>
     <div class="sidebar-settings">
-      <ul>
+      <ul class="settings-list">
         <li>
           <a href="" class="settings-link">
-            <span class="settings-icon1"></span>
+            <span class="settings-icon nav-icon">
+              <svg>
+                <use xlink:href="./assets/sprite.svg#settings">
+              </svg>
+            </span>
             <span class="settings-text">settings</span>
           </a>
         </li>
         <li>
           <a href="" class="settings-link">
-            <span class="settings-icon2"></span>
+            <span class="settings-icon nav-icon">
+              <svg>
+                <use xlink:href="./assets/sprite.svg#support">
+              </svg>
+            </span>
             <span class="settings-text">support</span>
           </a>
         </li>
         <li>
           <a href="" class="settings-link">
-            <span class="settings-icon3"></span>
+            <span class="settings-icon nav-icon">
+              <svg>
+                <use xlink:href="./assets/sprite.svg#privacy">
+              </svg>
+            </span>
             <span class="settings-text">privacy</span>
           </a>
         </li>
       </ul>
     </div>
   </aside>
-  <header class="header">Header</header>
-  <main class="content">Main content</main>
+  <header class="header">
+    <div class="header-search">
+      <label for="search" class="search-wrapper">
+        <svg class="search-button">
+          <use xlink:href="./assets/sprite.svg#search">
+        </svg>
+        <input type="text" name="search" id="search" class="search-text-field">
+      </label>
+    </div>
+    <div class="header-account-manage">
+      <svg class="notification">
+        <use xlink:href="./assets/sprite.svg#notification">
+      </svg>
+      <img src="./assets/avatar.jpg" alt="avatar" class="manage-avatar">
+      <span class="manage-name">Morgan Oakley</span>
+    </div>
+    <div class="header-account-info">
+      <img src="./assets/avatar.jpg" alt="avatar" class="info-avatar">
+      <div class="info-title">Hi there,</div>
+      <div class="info-name">Morgan Oakley <span>(@morgan)</span></div>
+    </div>
+    <div class="header-post-buttons">
+      <button class="header-button_new">new</button>
+      <button class="header-button_upload">share</button>
+      <button class="header-button_share">upload</button>
+    </div>
+  </header>
+  <main class="content">
+    <div class="content-projects">
+      <h3 class="content-title">Your Projects</h3>
+      <div class="projects-wrapper">
+        <div class="project-card">
+          <h3 class="project-title">some project title</h3>
+          <p class="project-description">Some description of the project or just a lorem ipsum</p>
+          <div class="project-reaction">
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#add-favourite">
+            </svg>
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#add-later">
+            </svg>
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#share">
+            </svg>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3 class="project-title">some project title</h3>
+          <p class="project-description">Some description of the project or just a lorem ipsum</p>
+          <div class="project-reaction">
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#add-favourite">
+            </svg>
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#add-later">
+            </svg>
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#share">
+            </svg>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3 class="project-title">some project title</h3>
+          <p class="project-description">Some description of the project or just a lorem ipsum</p>
+          <div class="project-reaction">
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#add-favourite">
+            </svg>
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#add-later">
+            </svg>
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#share">
+            </svg>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3 class="project-title">some project title</h3>
+          <p class="project-description">Some description of the project or just a lorem ipsum</p>
+          <div class="project-reaction">
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#add-favourite">
+            </svg>
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#add-later">
+            </svg>
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#share">
+            </svg>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3 class="project-title">some project title</h3>
+          <p class="project-description">Some description of the project or just a lorem ipsum</p>
+          <div class="project-reaction">
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#add-favourite">
+            </svg>
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#add-later">
+            </svg>
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#share">
+            </svg>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3 class="project-title">some project title</h3>
+          <p class="project-description">Some description of the project or just a lorem ipsum</p>
+          <div class="project-reaction">
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#add-favourite">
+            </svg>
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#add-later">
+            </svg>
+            <svg class="notification">
+              <use xlink:href="./assets/sprite.svg#share">
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-announcements">
+      <h3 class="content-title">Announcements</h3>
+      <div class="announcements-wrapper">
+        <div class="announcement-card">
+          <h4 class="announcement-title">Site Maintenance</h4>
+          <p class="announcement-description">More important info about that situation with Maintenance</p>
+        </div>
+        <div class="announcement-card">
+          <h4 class="announcement-title">Site Maintenance</h4>
+          <p class="announcement-description">More important info about that situation with Maintenance</p>
+        </div>
+        <div class="announcement-card">
+          <h4 class="announcement-title">Site Maintenance</h4>
+          <p class="announcement-description">More important info about that situation with Maintenance</p>
+        </div>
+      </div>
+    </div>
+    <div class="content-trending">
+      <h3 class="content-title">Trending</h3>
+      <div class="trending-wrapper">
+        <div class="trending-card">
+          <img src="./assets/avatar.jpg" alt="avatar">
+          <div class="trending-name">@tegan</div>
+          <div class="trending-description">World Coolest dog</div>
+        </div>
+        <div class="trending-card">
+          <img src="./assets/avatar.jpg" alt="avatar">
+          <div class="trending-name">@tegan</div>
+          <div class="trending-description">World Coolest dog</div>
+        </div>
+        <div class="trending-card">
+          <img src="./assets/avatar.jpg" alt="avatar">
+          <div class="trending-name">@tegan</div>
+          <div class="trending-description">World Coolest dog</div>
+        </div>
+        <div class="trending-card">
+          <img src="./assets/avatar.jpg" alt="avatar">
+          <div class="trending-name">@tegan</div>
+          <div class="trending-description">World Coolest dog</div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 
 </html>

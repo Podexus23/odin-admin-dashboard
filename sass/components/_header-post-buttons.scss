@@ -1,0 +1,30 @@
+.header-post-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+
+  button {
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 5px 15px;
+    color: #ffffff;
+    background-color: #10b981;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out, box-shadow 0.05s ease-in-out;
+  }
+
+  button:hover {
+    background-color: #2bc491;
+    color: gold;
+  }
+
+  button:active {
+    box-shadow: inset 0px 0px 2px 2px gold;
+  }
+}

@@ -6,3 +6,13 @@
 //3.layout
 @import "./sass/layout/main-layout.scss";
 @import "./sass/layout/sidebar";
+@import "./sass/layout/header";
+@import "./sass/layout/content";
+
+//4.components
+@import "./sass/components/list";
+@import "./sass/components/sidebar-logo";
+@import "./sass/components/header-search";
+@import "./sass/components/header-manage";
+@import "./sass/components/header-info";
+@import "./sass/components/header-post-buttons";

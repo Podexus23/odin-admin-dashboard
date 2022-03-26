@@ -1,0 +1,38 @@
+.navigation-link,
+.settings-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color .3s ease-in-out;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  text-transform: capitalize;
+}
+
+.navigation-list,
+.settings-list {
+  display: grid;
+  justify-items: center;
+  gap: 5px;
+}
+
+.nav-icon {
+  height: 30px;
+
+  svg {
+    display: grid;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.navigation-link:hover,
+.settings-link:hover {
+  color: gold;
+}
